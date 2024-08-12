@@ -71,11 +71,11 @@ body {
 }
 
 .grid-container{
-  display: grid;
-  grid-template-columns: 1fr 75% 1fr;
+   display: grid;
+  grid-template-columns: auto auto auto auto auto;
   text-align: center;
-  height: 80%;
   align-items: center;
+  height: 80%;
 
   
 
@@ -87,10 +87,36 @@ body {
     border-radius: 20px;
 }
 
-.comp-sci{
-  background-image: url(../img/Flask_logo.svg), url(../img/CSS3_logo.svg), url(../img/html-5-logo.svg), url(../img/logo-javascript.svg);
-  position:absolute;
-  height: 100%;
-  width: 100%;
-  background-repeat:no-repeat, no-repeat, no-repeat, no-repeat;
+.flask{
+  background-image: url(../img/Flask_logo.svg);
+  background-size: 300px;
+  width: 300px;
+  height: 300px;
+  background-repeat:no-repeat;
+
+}
+
+.css{
+  background-image: url(../img/CSS3_logo.svg);
+  background-size: 300px;
+  width: 300px;
+  height: 300px;
+  background-repeat:no-repeat;
+}
+
+.html5{
+  background-image: url(../img/html-5-logo.svg);
+  background-size: 300px;
+  width: 300px;
+  height: 300px;
+  background-repeat:no-repeat;
+}
+
+
+.js{
+  background-image: url(../img/logo-javascript.svg);
+ background-size: 300px;
+  width: 300px;
+  height: 300px;
+  background-repeat:no-repeat;
 }

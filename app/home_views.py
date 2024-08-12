@@ -12,6 +12,12 @@ def home():
 def goals():
     return render_template("home/goals.html")
 
+
 @app.route("/website")
 def website():
     return render_template("home/website.html")
+
+
+@app.route("/game")
+def game():
+    return render_template("home/index.html")
